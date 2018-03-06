@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "lib": {
+    "entryFile": "src/lib/ngbe-datetime-picker/index.ts",
+    "comments" : "none",
+    "licensePath": "LICENSE",
+    "umdModuleIds": {
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <ngbe-datetime-picker [(value)]="demoDate" (valueChange)="valueChanged($event)" (popupClosed)="popupClosed($event)" [showSeconds]="true" #dtp></ngbe-datetime-picker>
+  <button (click)="dtp.toggle()">toggle</button>
+</div>
