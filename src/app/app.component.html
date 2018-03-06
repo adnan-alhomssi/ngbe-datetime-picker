@@ -4,5 +4,7 @@
     Welcome to {{title}}!
   </h1>
   <ngbe-datetime-picker [(value)]="demoDate" (valueChange)="valueChanged($event)" (popupClosed)="popupClosed($event)" [showSeconds]="true" #dtp></ngbe-datetime-picker>
+  Date: {{demoDate | date : 'dd.MM.yyyy HH:mm:ss'}}
+  <br>
   <button (click)="dtp.toggle()">toggle</button>
 </div>
